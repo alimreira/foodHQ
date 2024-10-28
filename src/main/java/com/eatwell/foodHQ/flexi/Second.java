@@ -3,6 +3,7 @@ package com.eatwell.foodHQ.flexi;
 import java.util.Scanner;
 
 public class Second {
+    //added to git
 
     public static void main(String[] args) {
         //write a program that reads a sequence of positive integers, and stops when the
