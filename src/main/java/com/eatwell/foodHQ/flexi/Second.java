@@ -16,8 +16,8 @@ public class Second {
         int min = num;
         int max = num;
         while (num >=0){
-            min = min < num ? num: min;
-            max = max > num ? num : max;
+            min = min <= num ? num: min;
+            max = max >= num ? num : max;
             System.out.println("Enter another integer ");
             num = can.nextInt();
 
